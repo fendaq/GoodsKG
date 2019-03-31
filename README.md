@@ -6,10 +6,15 @@ GoodsKG, a knowledge graph that contains the product-product hierarchy producer 
 &emsp;本项目认为，电商网站中的商品分类目录能够供我们构建起一个商品概念体系，基于商品首页，我们可以得到商品与商品品牌之间的关系，商品的属性以及属性的取值信息。基于这类信息，又可以进一步得到商品的画像以及商品品牌的画像。基于该画像。可以对自然语言处理处理的几个下游应用带来帮助，如商品品牌识别，商品对象及属性级别情感分析，商品评价短语库构建，商品品牌竞争关系梳理等。  
 &emsp;因此，本项目以京东电商为实验数据来源，采集京东商品目录树，并获取其对应的底层商品概念信息，组织形成商品知识图谱。目前，该图谱包括有概念的上下位is a关系以及商品品牌与商品之间的销售sale关系共两类关系，涉及商品概念数目1300+，商品品牌数目9600+，属性数目几千种，关系数目65万规模。该项目可以进一步增强商品领域概念体系的应用，对自然语言处理处理的几个下游应用带来帮助，如商品品牌识别，商品对象及属性级别情感分析，商品评价短语库构建，商品品牌竞争关系梳理等提供基础性的概念服务。  
 
-
-
-
-#
+# 数据介绍
+1, 基本数据内容
+![image](https://github.com/liuhuanyong/GoodsKG/blob/master/image/info.png)
+2, is-a概念上下位关系
+![image](https://github.com/liuhuanyong/GoodsKG/blob/master/image/is_a.png)
+3, sale销售关系
+![image](https://github.com/liuhuanyong/GoodsKG/blob/master/image/sale.png)
+4, 混合关联关系
+![image](https://github.com/liuhuanyong/GoodsKG/blob/master/image/mix.png)
 
 If any question about the project or me ,see https://liuhuanyong.github.io/
 
